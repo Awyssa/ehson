@@ -1,0 +1,55 @@
+body {
+  background: url("https://i.imgur.com/xKZuomO.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+#mainHeader{
+}
+
+#navbar ul{
+  padding:0;
+  list-style: none;
+  display: inline;
+}
+
+#navbar li{
+  display: inline;
+}
+#navbar a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
+}
+
+#info {
+  min-height: 300px
+  margin-bottom:30px;
+  text-align: center;
+}
+  #infoPic {
+    margin-top:10px;
+    float:left;
+  }
+  #infoText {
+    float: left;
+    display: inline;
+    text-align: left;
+    margin-left: 10px;
+  }
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+  }
+}
